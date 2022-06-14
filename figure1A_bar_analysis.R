@@ -29,7 +29,7 @@ data$group=metadata[as.character(data$variable),1]
 library(ggplot2)
 library(ggsci)
 library(ggpubr)
-#ÏäĞÍÍ¼
+#ÃÃ¤ÃÃÃÂ¼
 sum$group=metadata[as.character(rownames(sum)),1]
 sum$group=factor(sum$group,levels = c("forest","park","treelawn","vegetable","paddy"))
 colnames(sum)[1]="value"
